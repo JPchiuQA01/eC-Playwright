@@ -1,0 +1,27 @@
+{
+  "name": "ec-playwright",
+  "version": "1.0.0",
+  "description": "Framework test eCommerce Web Page Object Model ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Juan Pablo Chiu",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.12.12",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.3",
+    "jira-client": "^8.2.2"
+  },
+  "dependencies": {
+    "jira-client": "^8.2.2"
+  }
+}
