@@ -67,7 +67,9 @@ module.exports = defineConfig({
     // Mozila Firefox
     {
       name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      use: { ...devices['Desktop Firefox'],
+      viewport:{width: 1440, height: 813}
+    },
     },
     
     /*
